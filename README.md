@@ -14,7 +14,7 @@ Different forms of the four field names improves flexibility.
 ```python
 text = soup.get_text("|")
 ```
-Entire raw text of the page is grabbed using the get_text() method of a BeautifulSoup object (soup). "|" is a delimiter placed after every 
+Entire raw text of the page is grabbed using the get_text() method of a BeautifulSoup object (soup). "|" is a delimiter placed after every piece of text
 
 ```python
 try:
